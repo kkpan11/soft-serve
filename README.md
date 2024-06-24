@@ -58,7 +58,7 @@ manager:
 
 ```bash
 # macOS or Linux
-brew tap charmbracelet/tap && brew install charmbracelet/tap/soft-serve
+brew install charmbracelet/tap/soft-serve
 
 # Windows (with Winget)
 winget install charmbracelet.soft-serve
@@ -583,7 +583,7 @@ To make a repository private, use `repo private <repo> [true|false]`. Private
 repos can only be accessed by admins and collaborators.
 
 ```sh
-ssh -p 23231 localhost repo icecream private true
+ssh -p 23231 localhost repo private icecream true
 ```
 
 ### Repository Branches & Tags
